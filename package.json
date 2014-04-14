@@ -24,7 +24,7 @@
         , "ee-project"              : "0.2.x"
         , "pluralize"               : "0.0.x"
         , "moment"                  : "2.5.x"
-        , "ee-async"                : "0.1.x"
+        , "ee-async"                : "0.2.x"
         , "ee-argv"                 : "0.1.x"
         , "ee-query-builder"        : "0.1.x"
         , "ee-db-connection"        : "0.1.x"

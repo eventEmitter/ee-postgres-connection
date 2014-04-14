@@ -7,15 +7,20 @@
 
 
     var connection = new PostgresConnection({
-          host      : '10.0.100.1'
+          host      : '10.80.100.1'
         , username  : 'postgres'
         , password  : ''
         , port      : 5432
-        , database  : 'information_schema'
+        , database  : 'eventbooster'
     });
 
 
+    connection.on('load', function(err) {
+        log(err);
 
-    connection.describe(function(err, description){
-        log(err, description);
+        connection.describe(['eventbooster'], function(err, description) {
+            log(err, description);
+        });
     });
+
+    
