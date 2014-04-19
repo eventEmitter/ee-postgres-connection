@@ -17,12 +17,11 @@
         "url"                       : "https://github.com/eventEmitter/ee-postgres-connection/issues"
     }
     , "dependencies": {
-          "ee-class"                : "0.2.x"
+          "ee-class"                : "0.4.x"
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-project"              : "0.2.x"
-        , "pluralize"               : "0.0.x"
         , "moment"                  : "2.5.x"
         , "ee-async"                : "0.2.x"
         , "ee-argv"                 : "0.1.x"
