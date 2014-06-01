@@ -5,7 +5,6 @@
     , "homepage"                    : "https://github.com/eventEmitter/ee-postgres-connection"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
-    , "os"                          : "!win"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/ee-postgres-connection.git"
         , "type"                    : "git"
