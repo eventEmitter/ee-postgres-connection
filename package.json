@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-postgres-connection"
     , "description"                 : "postgres connection abstraction for ee-orm"
-    , "version"                     : "0.4.5"
+    , "version"                     : "0.4.6"
     , "homepage"                    : "https://github.com/eventEmitter/ee-postgres-connection"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -16,8 +16,8 @@
         "url"                       : "https://github.com/eventEmitter/ee-postgres-connection/issues"
     }
     , "dependencies": {
-          "ee-class"                : "0.4.x"
-        , "ee-event-emitter"        : "0.1.x"
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.2.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-project"              : "0.2.x"
