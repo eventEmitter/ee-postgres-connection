@@ -1,40 +1,36 @@
 {
-      "name"                        : "ee-postgres-connection"
-    , "description"                 : "postgres connection abstraction for ee-orm"
-    , "version"                     : "0.4.6"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-postgres-connection"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "licence"                     : "mit"
+      "name"                            : "ee-postgres-connection"
+    , "description"                     : "postgres connection abstraction for ee-orm"
+    , "version"                         : "0.5.0"
+    , "homepage"                        : "https://github.com/eventEmitter/ee-postgres-connection"
+    , "author"                          : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                         : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-postgres-connection.git"
-        , "type"                    : "git"
+          "url"                         : "https://github.com/eventEmitter/ee-postgres-connection.git"
+        , "type"                        : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                          : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-postgres-connection/issues"
+        "url"                           : "https://github.com/eventEmitter/ee-postgres-connection/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.2.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
-        , "ee-project"              : "0.2.x"
-        , "moment"                  : "2.5.x"
-        , "ee-async"                : "0.2.x"
-        , "ee-argv"                 : "0.1.x"
-        , "ee-query-builder"        : "^0.2.x"
-        , "ee-db-connection"        : "^0.1.14"
-        , "pg.js"                   : "3.4.x"
+          "ee-class"                    : "1.0.x"
+        , "ee-types"                    : "0.1.x"
+        , "ee-log"                      : "0.2.x"
+        , "ee-async"                    : "0.2.x"
+        , "ee-argv"                     : "0.1.x"
+        , "ee-postgres-query-builder"   : "0.1.x"
+        , "ee-db-connection"            : "^0.1.14"
+        , "pg.js"                       : "3.6.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
-        , "ee-travis"               : "0.1.x"
+          "mocha"                       : "1.17.x"
+        , "ee-travis"                   : "0.1.x"
     }
     , "optionalDependencies": {}
-    , "keywords"                    : ["orm", "postgres", "ee"]
     , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+        "test"                          : "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
