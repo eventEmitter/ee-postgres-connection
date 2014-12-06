@@ -1,14 +1,7 @@
 # ee-postgres-connection
 
-description
+postgres connection abstraction for the related orm
 
 ## installation
 
-
-
-## build status
-
-[![Build Status](https://travis-ci.org/eventEmitter/ee-postgres-connection.png?branch=master)](https://travis-ci.org/eventEmitter/ee-postgres-connection)
-
-
-## usage
+npm install ee-postgres-connection
