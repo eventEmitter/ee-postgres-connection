@@ -1,7 +1,3 @@
-# ee-postgres-connection
+# related-postgres-connection
 
-postgres connection abstraction for the related orm
-
-## installation
-
-npm install ee-postgres-connection
+Creates connections to the Postgres Server for the [Related ORM](https://www.npmjs.com/package/related).
