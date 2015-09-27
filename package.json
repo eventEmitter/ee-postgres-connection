@@ -20,7 +20,6 @@
           "ee-class"                        : "1.x"
         , "ee-types"                        : "1.x"
         , "ee-log"                          : "0.3.x"
-        , "ee-async"                        : "0.2.x"
         , "ee-argv"                         : "0.1.x"
         , "related-postgres-query-builder"  : "0.5.x"
         , "related-db-connection"           : "0.4.x"
