@@ -17,3 +17,4 @@ travis.js
 
 node_modules
 config.js
+test-config.js
