@@ -18,15 +18,15 @@
     , "dependencies": {
 
           "ee-class"                        : "1.x"
-        , "ee-types"                        : "1.x"
+        , "ee-types"                        : "^2.1.2"
         , "related-db-connection"           : "2.x"
-        , "ee-log"                          : "0.3.x"
-        , "ee-argv"                         : "0.1.x"
+        , "ee-log"                          : "~2.0.2"
+        , "ee-argv"                         : "~1.0.2"
         , "related-error"                   : "0.1.x"
-        , "pg"                              : "4.x"
+        , "pg"                              : "^6.1.5"
     }
     , "devDependencies": {
-          "mocha"                           : "2.x"
+          "mocha"                           : "^3.3.0"
         , "test-config"                     : "0.1.x"
         , "related-query-context"           : "2.x"
     }
