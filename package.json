@@ -1,7 +1,7 @@
 {
       "name"                                : "related-postgres-connection"
     , "description"                         : "postgres connection implementation for the related orm"
-    , "version"                             : "2.2.0"
+    , "version"                             : "2.2.1"
     , "homepage"                            : "https://github.com/eventEmitter/related-postgres-connection"
     , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
     , "license"                             : "MIT"
@@ -22,7 +22,7 @@
         , "related-db-connection"           : "2.x"
         , "ee-log"                          : "2.x"
         , "related-error"                   : "0.1.x"
-        , "pg"                              : ">=4.5"
+        , "pg"                              : "6.x"
     }
     , "devDependencies": {
           "mocha"                           : "3.x"
