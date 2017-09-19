@@ -1,36 +1,35 @@
 {
-      "name"                                : "related-postgres-connection"
-    , "description"                         : "postgres connection implementation for the related orm"
-    , "version"                             : "2.3.2"
-    , "homepage"                            : "https://github.com/eventEmitter/related-postgres-connection"
-    , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
-    , "license"                             : "MIT"
-    , "repository": {
-          "url"                             : "https://github.com/eventEmitter/related-postgres-connection.git"
-        , "type"                            : "git"
-    }
-    , "engines": {
-        "node"                              : ">=v6"
-    }
-    , "bugs": {
-        "url"                               : "https://github.com/eventEmitter/related-postgres-connection/issues"
-    }
-    , "dependencies": {
-
-          "ee-class"                        : "1.x"
-        , "ee-types"                        : "2.x"
-        , "related-db-connection"           : "2.x"
-        , "ee-log"                          : "2.x"
-        , "related-error"                   : "0.1.x"
-        , "pg"                              : "6.x"
-    }
-    , "devDependencies": {
-          "mocha"                           : "3.x"
-        , "test-config"                     : "0.1.x"
-        , "related-query-context"           : "2.x"
-    }
-    , "optionalDependencies": {}
-    , "scripts": {
-        "test"                              : "./node_modules/mocha/bin/mocha --reporter spec"
+    "name": "related-postgres-connection",
+    "description": "postgres connection implementation for the related orm",
+    "version": "2.3.3",
+    "homepage": "https://github.com/eventEmitter/related-postgres-connection",
+    "author": "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/eventEmitter/related-postgres-connection.git",
+        "type": "git"
+    },
+    "engines": {
+        "node": ">=v6"
+    },
+    "bugs": {
+        "url": "https://github.com/eventEmitter/related-postgres-connection/issues"
+    },
+    "dependencies": {
+        "ee-class": "1.x",
+        "ee-log": "^2.0.4",
+        "ee-types": "^2.1.4",
+        "pg": "7.x",
+        "related-db-connection": "^2.2.3",
+        "related-error": "0.1.x"
+    },
+    "devDependencies": {
+        "mocha": "^3.5.3",
+        "related-query-context": "2.x",
+        "test-config": "0.1.x"
+    },
+    "optionalDependencies": {},
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
