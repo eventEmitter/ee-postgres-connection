@@ -19,7 +19,7 @@
         "ee-class": "1.x",
         "ee-log": "^2.0.4",
         "ee-types": "^2.1.4",
-        "pg": "7.x",
+        "pg": "^8.5.1",
         "related-db-connection": "^2.2.3",
         "related-error": "0.1.x"
     },
