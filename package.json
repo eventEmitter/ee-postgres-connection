@@ -19,7 +19,7 @@
         "ee-log": "^2.0.4",
         "ee-types": "^2.1.4",
         "pg": "^8.7.3",
-        "related-db-connection": "^2.2.8",
+        "related-db-connection": "^2.2.9",
         "related-error": "0.1.x"
     },
     "devDependencies": {
