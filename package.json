@@ -1,7 +1,7 @@
 {
     "name": "related-postgres-connection",
     "description": "postgres connection implementation for the related orm",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "homepage": "https://github.com/linaGirl/related-postgres-connection",
     "author": "Lina van der Weg <lina@vanderweg.ch>",
     "license": "MIT",
