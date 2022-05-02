@@ -2,25 +2,24 @@
     "name": "related-postgres-connection",
     "description": "postgres connection implementation for the related orm",
     "version": "2.3.4",
-    "homepage": "https://github.com/eventEmitter/related-postgres-connection",
-    "author": "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)",
+    "homepage": "https://github.com/linaGirl/related-postgres-connection",
+    "author": "Lina van der Weg <lina@vanderweg.ch>",
     "license": "MIT",
     "repository": {
-        "url": "https://github.com/eventEmitter/related-postgres-connection.git",
+        "url": "https://github.com/linaGirl/related-postgres-connection.git",
         "type": "git"
     },
     "engines": {
         "node": ">=v6"
     },
     "bugs": {
-        "url": "https://github.com/eventEmitter/related-postgres-connection/issues"
+        "url": "https://github.com/linaGirl/related-postgres-connection/issues"
     },
     "dependencies": {
-        "ee-class": "1.x",
         "ee-log": "^2.0.4",
         "ee-types": "^2.1.4",
-        "pg": "^8.5.1",
-        "related-db-connection": "^2.2.3",
+        "pg": "^8.7.3",
+        "related-db-connection": "^2.2.8",
         "related-error": "0.1.x"
     },
     "devDependencies": {
@@ -28,7 +27,6 @@
         "related-query-context": "2.x",
         "test-config": "0.1.x"
     },
-    "optionalDependencies": {},
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha --reporter spec"
     }

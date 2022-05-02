@@ -1,4 +1,4 @@
 
 
 
-	module.exports = require('./lib/PostgresConnection');
+module.exports = require('./src/PostgresConnection.js');
